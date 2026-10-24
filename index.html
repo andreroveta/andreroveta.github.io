@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="Informações sobre integração OAuth pessoal entre Rclone e Google Drive em Linux.">
+  <title>Rclone Pessoal Linux — Integração Google Drive</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, -apple-system,'Segoe UI',sans-serif; line-height: 1.7; color:#172235; background:#f5f7fa; }
+    * { box-sizing: border-box; }
+    body { margin:0; }
+    .wrap { max-width:790px; padding:38px 24px 52px; margin:auto; }
+    main { background:#fff; border:1px solid #dce3eb; border-radius:15px; padding:32px; }
+    h1 { font-size:clamp(1.75rem,4vw,2.3rem); line-height:1.25; margin-top:0; }
+    h2 { font-size:1.2rem; margin-top:28px; }
+    a { color:#135bb8; } a:focus-visible { outline:3px solid #f7ad44; outline-offset:3px; }
+    .muted { color:#506176; }
+    .pill { display:inline-block; padding:4px 10px; border-radius:999px; background:#e8f0ff; color:#1d4c96; font-weight:650; font-size:.9rem; }
+    footer { color:#506176; padding-top:20px; font-size:.9rem; }
+  </style>
+</head>
+<body><div class="wrap">
+  <main>
+    <span class="pill">Uso pessoal • Linux</span>
+    <h1>Rclone Pessoal Linux</h1>
+    <p>Esta página descreve uma integração OAuth destinada exclusivamente ao uso pessoal do proprietário da conta Google para acesso e sincronização seletiva de arquivos entre seu computador Linux e seu Google Drive, utilizando o software de código aberto <a href="https://rclone.org/">Rclone</a>.</p>
+    <h2>Finalidade</h2>
+    <p>O Rclone permite ler, copiar, alterar e, quando autorizado e configurado, excluir arquivos do Google Drive. A sincronização será limitada operacionalmente às pastas selecionadas pelo proprietário, embora a autorização OAuth possa oferecer permissão mais ampla sobre o Google Drive. A sincronização não substitui um backup independente.</p>
+    <h2>Como funciona</h2>
+    <p>A autorização é concedida pelo próprio proprietário na página de consentimento do Google. O software Rclone roda localmente no computador e se comunica com a API do Google Drive. Esta página é apenas informativa e não realiza login, upload, download ou armazenamento de documentos.</p>
+    <h2>Documentos da integração</h2>
+    <p><a href="privacy.html">Política de Privacidade</a> · <a href="terms.html">Termos de Uso</a></p>
+    <p class="muted">Projeto independente de uso pessoal. Não é um aplicativo oficial do Google nem uma distribuição oficial do Rclone.</p>
+  </main>
+  <footer>Rclone Pessoal Linux — informações públicas da integração OAuth pessoal.</footer>
+</div></body>
+</html>
